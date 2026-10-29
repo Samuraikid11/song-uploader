@@ -51,6 +51,8 @@
       <div class="card"><h3>You choose who can see it</h3><p>Privacy options come from your own TikTok account settings. Nothing is selected for you, and you have to choose one before you can post.</p></div>
       <div class="card"><h3>Interaction &amp; disclosure settings</h3><p>Turn comments, Duet and Stitch on or off, add TikTok's AI-generated content label, and mark branded or promotional content.</p></div>
       <div class="card"><h3>Live upload status</h3><p>A progress bar and TikTok's own status messages (uploading, processing, published) tell you when the post is live.</p></div>
+      <div class="card"><h3>Your own stats</h3><p>A Stats view, shared with the creator's Channel Monitor app, shows the account's follower, following and like counts, plus views, likes, comments and shares for each of your own posted videos.</p></div>
+      <div class="card"><h3>Track how a post is doing</h3><p>Stats are saved on your computer over time, so you can see how each song's video grows after it is posted.</p></div>
     </div>
   </section>
 
@@ -77,20 +79,23 @@
 
   <section id="permissions">
     <h2>TikTok permissions it uses</h2>
-    <p class="sub">The app only asks for what it needs to post, and nothing else.</p>
+    <p class="sub">The app only asks for what it needs to post and to show the owner's own stats.</p>
     <div class="table-scroll"><table>
       <tr><th>Scope</th><th>Why it's needed</th></tr>
       <tr><td><code>user.info.basic</code></td><td>Shows the display name and avatar of the signed-in account, so you can see which account you are posting to.</td></tr>
       <tr><td><code>video.upload</code></td><td>Uploads the video file you selected to your TikTok account.</td></tr>
       <tr><td><code>video.publish</code></td><td>Publishes the uploaded video with the caption and the privacy and interaction settings you chose.</td></tr>
+      <tr><td><code>user.info.stats</code></td><td>Reads your own account's follower, following, like and video counts for the Stats view.</td></tr>
+      <tr><td><code>video.list</code></td><td>Lists your own posted videos with their view, like, comment and share counts, so you can see how each post is doing.</td></tr>
     </table></div>
-    <p>Song Uploader does not read your followers, messages, other people's content or analytics. Sign-in tokens are kept only on your own computer. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+    <p>Song Uploader only reads stats for the signed-in account and its own videos. It does not read who your followers are, your messages, or anyone else's content or data. Sign-in tokens are kept only on your own computer. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
   </section>
 
   <section id="faq">
     <h2>FAQ</h2>
     <details><summary>Who can use Song Uploader?</summary><p>Only its creator. It posts the creator's own original music videos to their own TikTok account. It isn't downloadable or sold.</p></details>
     <details><summary>Does it post anything automatically?</summary><p>No. Every post starts with the user picking a video and clicking <em>Post to TikTok</em>. Nothing is posted on a schedule or in the background.</p></details>
+    <details><summary>What stats does it read?</summary><p>Only the signed-in account's own totals (followers, following, likes, video count) and the view, like, comment and share counts of its own videos. These are shown to the owner and saved only on their computer. They are never shared or published.</p></details>
     <details><summary>Where is my data stored?</summary><p>Only on your own computer. The app has no server of its own. Videos go straight from your computer to TikTok.</p></details>
     <details><summary>How do I disconnect it from TikTok?</summary><p>In the TikTok app, go to Settings and privacy → Security → Manage app permissions and remove Song Uploader. You can also delete the app's local token file.</p></details>
     <details><summary>What kind of videos does it post?</summary><p>Original music videos for songs by Samuraikid11: full-length 9:16 versions and short chorus clips. Posts are labelled as AI-generated content where that applies.</p></details>
